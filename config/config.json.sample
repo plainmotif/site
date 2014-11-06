@@ -1,0 +1,66 @@
+{
+    "siteName": "MizzenCMS Lite",
+    "url": "http://mizzencms.net/",
+    "skin": {
+        "name": "pure",
+        "layout": "layout.php"
+    },
+    "pages": {
+        "extension": ".md",
+        "location": "content/page/"
+    },
+    "nav": {
+        "replace": {
+            "firstpage": "First Page",
+            "news": "News/Blog",
+            "contact": "Contact",
+        },
+        "exclude": [
+            "index",
+            "404",
+            "sponsors"
+        ],
+        "attributes": {
+            "root": {
+                "id": "",
+                "class": "nav navbar-nav"
+            },
+            "parent": {
+                "class": ""
+            },
+            "child": {
+                "class": ""
+            },
+            "link": {
+                "class": ""
+            },
+            "label": {
+                "class": ""
+            }
+        }
+    },
+    "module": {
+        "news": {
+            "dir": "news",
+            "page": "news"
+        },
+        "oAuthSignIn": {
+            "bitbucket": {
+                "key": "",
+                "secret": ""
+            },
+            "github": {
+                "key": "",
+                "secret": ""
+            },
+            "google": {
+                "key": "",
+                "secret": ""
+            },
+            "twitter": {
+                "key": "",
+                "secret": ""
+            }
+        }
+    }
+}
