@@ -9,11 +9,11 @@ require $basePath->path.'/vendor/autoload.php';
 
 $app = new Strayobject\Mizzenlite\App();
 $app->init($basePath);
-$app->getBag()->add('newsList', function () {
-    return new NewsList();
-});
-$app->getBag()->add('newsUpcoming', function () {
-    return new NewsUpcoming(new NewsList());
-});
+// $app->getBag()->add('newsList', function () {
+//     return new NewsList();
+// });
+// $app->getBag()->add('newsUpcoming', function () {
+//     return new NewsUpcoming(new NewsList());
+// });
 
 echo $app->run();

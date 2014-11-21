@@ -15,6 +15,8 @@ class FormGenerator extends Base
 
     public function __construct()
     {
+        parent::__construct();
+
         $this->setJsonPath(
             $this->getBag()->get('basePath')->path.'/config/forms.json'
         );

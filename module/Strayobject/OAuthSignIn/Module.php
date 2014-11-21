@@ -21,33 +21,33 @@ class Module extends Observer
      */
     public function run()
     {
-        $upcoming = (new NewsUpcoming(new NewsList()))->findNextPost();
-        $location = 'var/attendee/';
-        $file     = preg_replace('/[^a-zA-Z0-9-]/', '-', $upcoming->getPath());
+        // $upcoming = (new NewsUpcoming(new NewsList()))->findNextPost();
+        // $location = 'var/attendee/';
+        // $file     = preg_replace('/[^a-zA-Z0-9-]/', '-', $upcoming->getPath());
 
-        if ($this->getTriggeredEvent() == 'appRun') {
-            (new OAuthSignIn())->run($location.$file);
-        }
+        // if ($this->getTriggeredEvent() == 'appRun') {
+        //     (new OAuthSignIn())->run($location.$file);
+        // }
 
-        if ($this->getTriggeredEvent() == 'beforeViewRender') {
-            $view = $this->getTriggeredEventParams()['view'];
+        // if ($this->getTriggeredEvent() == 'beforeViewRender') {
+        //     $view = $this->getTriggeredEventParams()['view'];
 
-            if (!$upcoming) {
-                $view->attendees = [];
+        //     if (!$upcoming) {
+        //         $view->attendees = [];
 
-                return;
-            }
+        //         return;
+        //     }
 
-            try {
-                $attendeeRepository = (new AttendeeRepository())->jsonUnserialize(
-                    (new AttendeeStorage($location.$file))->getData()
-                );
-                $view->attendees = $attendeeRepository->getAttendees();
-            } catch (RuntimeException $e) {
-                $view->attendees = [];
-            } catch (\Exception $e) {
-                $view->attendees = [];
-            }
-        }
+        //     try {
+        //         $attendeeRepository = (new AttendeeRepository())->jsonUnserialize(
+        //             (new AttendeeStorage($location.$file))->getData()
+        //         );
+        //         $view->attendees = $attendeeRepository->getAttendees();
+        //     } catch (RuntimeException $e) {
+        //         $view->attendees = [];
+        //     } catch (\Exception $e) {
+        //         $view->attendees = [];
+        //     }
+        // }
     }
 }

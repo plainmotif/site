@@ -1,0 +1,8 @@
+composer.lock
+vendor/*
+var/*
+!.gitkeep
+config/*
+!config/*.sample
+*.sublime*
+.DS_Store
