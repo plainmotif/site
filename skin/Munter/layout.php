@@ -84,6 +84,9 @@
     <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setCookieDomain", "*.plainmotif.co.uk"]);
+      _paq.push(["setDomains", ["*.plainmotif.co.uk"]]);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
@@ -93,9 +96,8 @@
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
         g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
       })();
-
     </script>
-    <noscript><p><img src="//plainmotif.co.uk/stats/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+    <noscript><p><img src="http://plainmotif.co.uk/stats/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
     <!-- End Piwik Code -->
     <script type="text/javascript">var RumID = 3708;</script><script type="text/javascript" async src="https://ec01c392919812c4f818-79afe539d963810002081e6e2a51e67e.ssl.cf2.rackcdn.com/Embed.js"></script>
 
