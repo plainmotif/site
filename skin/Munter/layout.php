@@ -56,8 +56,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    Copyright &copy; <?= date('Y'); ?> Plainmotif Limited | 
-                    Design by <a href="http://www.blacktie.co">BlackTie</a> | 
+                    Copyright &copy; <?= date('Y'); ?> Plainmotif Limited |
+                    Design by <a href="http://www.blacktie.co">BlackTie</a> |
                     Home image by <a href="http://tumblr.unsplash.com/post/73463740348/download-by-monika-majkowska">Monika Majkowska</a>
                 </div>
             </div>
@@ -69,8 +69,16 @@
     <script src="/skin/Munter/js/script.js"></script>
     <script>
         $(document).ready(function(e) {
+            if ($('#slide-6').find('.alert').length) {
+                $('.alert-error').addClass('alert-danger');
+                htmlbody.stop(false, false).animate({
+                    scrollTop: $('#slide-6').offset().top  + $('#slide-5').outerHeight()
+                }, 1500, 'easeInOutQuart');
+            }
+
             var lis = $('.nav > li');
             menu_focus( lis[0], 1 );
+
             $(".fancybox").fancybox({
                 padding: 10,
                 helpers: {

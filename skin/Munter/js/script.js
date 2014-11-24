@@ -134,8 +134,6 @@ var delay = (function(){
 })();
 
 function menu_focus( element, i ) {
-    console.log(element);
-    console.log(i);
     if ( $(element).hasClass('active') ) {
         if ( i == 6 ) {
             if ( $('.navbar').hasClass('inv') == false )
