@@ -21,27 +21,27 @@ date:2014-11-15
     </div>
     <div class="row content-row">
         <div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
-        <div class="col-12 col-sm-2">
+        <div class="col-12 col-sm-2 box-img-client">
             <a href="http://www.muastore.co.uk">
                 <img src="/content/media/image/clients/fbbeauty.jpg" alt="FBBeauty"/>
             </a>
         </div>
-        <div class="col-12 col-sm-2">
+        <div class="col-12 col-sm-2 box-img-client">
             <a href="http://www.sleekmakeup.com">
                 <img src="/content/media/image/clients/sleek-white.jpg" alt="Sleek Makeup"/>
             </a>
         </div>
-        <div class="col-12 col-sm-2">
+        <div class="col-12 col-sm-2 box-img-client">
             <a href="http://www.vashi.com">
                 <img src="/content/media/image/clients/vashi.jpg" alt="Vashi Diamonds"/>
             </a>
         </div>
-        <div class="col-12 col-sm-2">
+        <div class="col-12 col-sm-2 box-img-client">
             <a href="http://iesve.com">
                 <img src="/content/media/image/clients/ies.jpg" alt="IES"/>
             </a>
         </div>
-        <div class="col-12 col-sm-2">
+        <div class="col-12 col-sm-2 box-img-client">
             <a href="http://capa.uk.com">
                 <img src="/content/media/image/clients/capa.jpg" alt="Capa"/>
             </a>

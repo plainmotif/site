@@ -15,7 +15,7 @@ date:2014-11-15
     </div>
     <div class="row subtitle-row">
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
-        <div class="col-12 col-sm-10 font-light">
+        <div class="col-12 font-light">
             {form}
             <br/>
             Alternatively, get in touch via the following:

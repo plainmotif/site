@@ -63,7 +63,7 @@ class FormGenerator extends Base
     public function createForm()
     {
         $currentFormSpec = $this->getFormSpec()[$this->getCurrentPage()];
-        $form            = new Form();
+        $form            = new Form('sidebyside');
         $form->configure($currentFormSpec['config']);
 
         foreach ($currentFormSpec['fields'] as $field) {

@@ -111,7 +111,7 @@ $(function() {
                     gallery_width += $('#slide-3 img').width();
                 }
 
-                $('#slide-3 .row').css('width', gallery_width );
+                $('#slide-3 .row').css('width', (gallery_width) );
 
                 var left_pos = $('#slide-3 .row').width() - $('body').width();
                 left_pos /= -2;
@@ -256,18 +256,18 @@ jQuery(document).ready(function ($) {
 ******************/
 jQuery(document).ready(function ($) {
     //Cache some variables
-    var images = $('#slide-3 a');
+    var images = $('#slide-3 a.fancybox');
 
     images.hover(
         function(e) {
-            var asta = $(this).find('img');
-            $('#slide-3 img').not( asta ).stop(false, false).animate(
-                {
-                    opacity: .5
-                },
-                'fast',
-                'linear'
-            );
+            // var asta = $(this).find('img');
+            // $('#slide-3 img').not( asta ).stop(false, false).animate(
+            //     {
+            //         opacity: .8
+            //     },
+            //     'fast',
+            //     'linear'
+            // );
             var zoom = $('<div class="zoom"></div>');
             if ( $(this).hasClass('video') ) {
                 zoom.addClass('video');

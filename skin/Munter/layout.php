@@ -31,17 +31,17 @@
     <div id="arrows">
         <div id="arrow-up" class="disabled"></div>
         <div id="arrow-down"></div>
-        <div id="arrow-left" class="disabled visible-lg"></div>
-        <div id="arrow-right" class="disabled visible-lg"></div>
+        <div id="arrow-left" class="disabled hidden-sm"></div>
+        <div id="arrow-right" class="disabled hidden-sm"></div>
     </div>
     <div class="slide story" id="slide-1" data-slide="1">
-        <?= $this->renderContent('home'); ?>
+        <?= $this->content; ?>
     </div>
     <div class="slide story" id="slide-2" data-slide="2">
         <?= $this->renderContent('about'); ?>
     </div>
     <div class="slide story" id="slide-3" data-slide="3">
-       <?= $this->renderContent('portfolio'); ?>
+       <?= $this->partial('portfolio', '../../content/page/portfolio.md', false); ?>
     </div>
     <div class="slide story" id="slide-4" data-slide="4">
         <?= $this->renderContent('process'); ?>
@@ -81,6 +81,9 @@
 
             $(".fancybox").fancybox({
                 padding: 10,
+                autoHeight:true,
+                autoResize:true,
+                fitToView:true,
                 helpers: {
                     overlay: {
                         locked: false
