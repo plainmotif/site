@@ -20,22 +20,22 @@ date:2014-11-15
     </div>
     <div class="row content-row">
         <div class="col-12 col-lg-3 col-sm-6">
-            <p><i class="fa fa-5x fa-code"></i></p>
+            <i class="fa fa-5x fa-code"></i>
             <h2 class="font-semibold">Development</h2>
             <h4 class="font-thin">Clean and tested, object oriented code.</h4>
         </div>
         <div class="col-12 col-lg-3 col-sm-6">
-            <p><i class="fa fa-5x fa-laptop"></i></p>
+            <i class="fa fa-5x fa-laptop"></i>
             <h2 class="font-thin">Web <span class="font-semibold">Design</span></h2>
             <h4 class="font-thin">Stunning and stylish websites.</h4>
         </div>
         <div class="col-12 col-lg-3 col-sm-6">
-            <p><i class="fa fa-5x fa-shopping-cart"></i></p>
+            <i class="fa fa-5x fa-shopping-cart"></i>
             <h2 class="font-semibold">Ecommerce</h2>
             <h4 class="font-thin">Web stores designed to sell.</h4>
         </div>
         <div class="col-12 col-lg-3 col-sm-6">
-            <p><i class="fa fa-5x fa-pencil"></i></p>
+            <i class="fa fa-5x fa-pencil"></i>
             <h2 class="font-thin"><span class="font-semibold">Copywriting</span></h2>
             <h4 class="font-thin">Message tailored to your audience.</h4>
         </div>

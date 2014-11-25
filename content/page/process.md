@@ -18,7 +18,7 @@ date:2014-11-15
     </div>
     <div class="row content-row">
         <div class="col-12 col-sm-3">
-            <p><i class="fa fa-5x fa-check"></i></p>
+            <i class="fa fa-5x fa-check"></i>
             <h2 class="font-thin">Listening to<br/><span class="font-semibold">your needs</span></h2>
             <h4 class="font-thin">
                 Key step in getting the best result is full
@@ -27,7 +27,7 @@ date:2014-11-15
             </h4>
         </div>
         <div class="col-12 col-sm-3">
-            <p><i class="fa fa-5x fa-lightbulb-o"></i></p>
+            <i class="fa fa-5x fa-lightbulb-o"></i>
             <h2 class="font-thin">Coming up with<br/><span class="font-semibold">the solution</span></h2>
             <h4 class="font-thin">
                 We strive to put all the pieces together into a coherent
@@ -36,7 +36,7 @@ date:2014-11-15
             </h4>
         </div>
         <div class="col-12 col-sm-3">
-            <p><i class="fa fa-5x fa-map-marker"></i></p>
+            <i class="fa fa-5x fa-map-marker"></i>
             <h2 class="font-thin">Getting<br/><span class="font-semibold">there</span></h2>
             <h4 class="font-thin">
                 A lot of projects fail due to miscommunication at some
@@ -45,7 +45,7 @@ date:2014-11-15
             </h4>
         </div>
         <div class="col-12 col-sm-3">
-            <p><i class="fa fa-5x fa-gift"></i></p>
+            <i class="fa fa-5x fa-gift"></i>
             <h2 class="font-thin">Delivering<br/><span class="font-semibold">the product</span></h2>
             <h4 class="font-thin">
                 We will support you during the time it takes you to 
