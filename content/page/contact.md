@@ -38,8 +38,8 @@ date:2014-11-15
         <div class="col-12 col-sm-3 with-hover-text">
             <p><a href="#"><i class="fa fa-5x fa-home"></i></a></p>
             <span class="hover-text font-light ">
-                We are all based in Glasgow area, however we don't have a 
-                fancy office and work remotely - from home. 
+                We are all based in Glasgow area, however we work 
+                remotely - from home. 
                 Alternatively, if we need a change, we go to a cafe or park.
             </span>
         </div>
