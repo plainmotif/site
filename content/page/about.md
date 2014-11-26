@@ -18,7 +18,7 @@ date:2014-11-15
     <div class="row subtitle-row">
         <div class="col-12 font-thin">This is what <span class="font-semibold">we do best</span></div>
     </div>
-    <div class="row content-row">
+    <div class="row content-row row-icons">
         <div class="col-12 col-lg-3 col-sm-6">
             <i class="fa fa-5x fa-code"></i>
             <h2 class="font-semibold">Development</h2>
@@ -63,7 +63,7 @@ date:2014-11-15
             <div class="row subtitle-row">
                 <div class="col-12 font-thin">Our <span class="font-semibold">Team</span></div>
             </div>
-            <div class="col-12 col-lg-4 col-sm-6 box-team">
+            <div class="col-12 col-lg-4 box-team">
                 <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <img class="team-img" src="/content/media/image/team/magdalena.jpg"/>
@@ -75,7 +75,7 @@ date:2014-11-15
                     (more at <a href="http://madala.eu">madala.eu</a>)
                 </p>
             </div>
-            <div class="col-12 col-lg-4 col-sm-6 box-team">
+            <div class="col-12 col-lg-4 box-team">
                 <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <img class="team-img" src="/content/media/image/team/tom.jpeg"/>
@@ -87,7 +87,7 @@ date:2014-11-15
                     (more at <a href="http://janiczek.co.uk">janiczek.co.uk</a>)
                 </p>
             </div>
-            <div class="col-12 col-lg-4 col-sm-6 box-team">
+            <div class="col-12 col-lg-4 box-team">
                 <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <img class="team-img" src="/content/media/image/team/mike.jpg"/>

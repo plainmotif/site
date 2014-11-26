@@ -26,6 +26,7 @@
 
 <body>
     <div class="navbar navbar-fixed-top" data-activeslide="1">
+        <img class="logo" src="/skin/Munter/images/plainmotif.png"/>
         <?= $this->renderContent('nav'); ?>
     </div>
     <div id="arrows">

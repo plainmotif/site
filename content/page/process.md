@@ -16,8 +16,8 @@ date:2014-11-15
         <div class="col-12 col-sm-10 font-light"></div>
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
     </div>
-    <div class="row content-row">
-        <div class="col-12 col-sm-3">
+    <div class="row content-row row-icons">
+        <div class="col-12 col-lg-3 col-sm-6">
             <i class="fa fa-5x fa-check"></i>
             <h2 class="font-thin">Listening to<br/><span class="font-semibold">your needs</span></h2>
             <h4 class="font-thin">
@@ -26,7 +26,7 @@ date:2014-11-15
                 discovering what you and your customers require.
             </h4>
         </div>
-        <div class="col-12 col-sm-3">
+        <div class="col-12 col-lg-3 col-sm-6">
             <i class="fa fa-5x fa-lightbulb-o"></i>
             <h2 class="font-thin">Coming up with<br/><span class="font-semibold">the solution</span></h2>
             <h4 class="font-thin">
@@ -35,7 +35,7 @@ date:2014-11-15
                 projects and budgets.
             </h4>
         </div>
-        <div class="col-12 col-sm-3">
+        <div class="col-12 col-lg-3 col-sm-6">
             <i class="fa fa-5x fa-map-marker"></i>
             <h2 class="font-thin">Getting<br/><span class="font-semibold">there</span></h2>
             <h4 class="font-thin">
@@ -44,7 +44,7 @@ date:2014-11-15
                 loop at all time.
             </h4>
         </div>
-        <div class="col-12 col-sm-3">
+        <div class="col-12 col-lg-3 col-sm-6">
             <i class="fa fa-5x fa-gift"></i>
             <h2 class="font-thin">Delivering<br/><span class="font-semibold">the product</span></h2>
             <h4 class="font-thin">

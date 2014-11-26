@@ -82,8 +82,19 @@ button, input, optgroup, select, textarea
 .navbar.inv a {
     color: #e4e6e5;
 }
-
-
+.logo {
+    left: 5px;
+    position: absolute;
+    bottom: 10px;
+}
+@media (min-width:768px) and (max-width:1350px) {
+    .logo {
+        left: 5px;
+        position: absolute;
+        bottom: 15px;
+        height: 13px;
+    }
+}
 .navbar-collapse.pm-nav-top {
     margin: 0 auto;
     width:80%;
@@ -235,6 +246,12 @@ button, input, optgroup, select, textarea
   position: relative;
   top: -8%;
   width: 80%;
+}
+@media (max-width:1199px) {
+    .row-icons .col-sm-6
+    {
+        margin-top:15px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     #slide-4 .content-row h2 {
@@ -574,7 +591,7 @@ button, input, optgroup, select, textarea
 #slide-6 {
     background-color: #2f2f2f;
     color: #e4e6e5;
-    padding-bottom: 150px;
+    padding-bottom: 165px;
     padding-top: 90px;
 }
 
