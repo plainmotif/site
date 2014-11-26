@@ -352,10 +352,10 @@ AddDefaultCharset utf-8
 <IfModule mod_rewrite.c>
 
     # (1)
-    RewriteEngine On
+    #RewriteEngine On
 
     # (2)
-    Options +FollowSymlinks
+    #Options +FollowSymlinks
 
     # (3)
     # Options +SymLinksIfOwnerMatch
